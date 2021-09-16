@@ -25,7 +25,7 @@ public:
 int main(){
     std::cout << "Hello World\n";
     Student s1("John", 401);                   //sequence of passing data
-    Student s2("Jocob", 102);
+    Student s2("Jocob", 702);
 
     std::cout<<"Name of s1 is\t"<<s1.getStudentName()<<"\n";
     std::cout<<"Name of s2 is\t"<<s2.getStudentName()<<"\n";
