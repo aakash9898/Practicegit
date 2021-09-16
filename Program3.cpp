@@ -1,9 +1,11 @@
 #include <iostream>
+using namespace std;
 class Student
 {
 private:
     /* data */
     int studentId;
+    //aakash
     std::string studentName;
 public:
     Student(std::string name, int id) {        //sequence of accepting data should be same
@@ -26,6 +28,7 @@ int main(){
     std::cout << "Hello World\n";
     Student s1("John", 101);                   //sequence of passing data
     Student s2("Jocob", 102);
+    cout<<"Hello"<<endl;
 
     std::cout<<"Name of s1 is\t"<<s1.getStudentName()<<"\n";
     std::cout<<"Name of s2 is\t"<<s2.getStudentName()<<"\n";
