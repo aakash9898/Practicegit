@@ -1,14 +1,15 @@
 #include <iostream>
+using namespace std;
 class Student
 {
 private:
     /* data */
     int studentId;
-    std::string studentNamme;
+    std::string studentName;
 public:
     Student(std::string name, int id) {        //sequence of accepting data should be same
         this->studentId=id;                    //take the id passed and store it in current object's studentId property
-        this->studentNaame=name;
+        this->studentName=name;
     }
     ~Student() {}
     //getters
