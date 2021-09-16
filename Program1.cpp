@@ -29,4 +29,5 @@ int main(){
 
     std::cout<<"Name of s1 is\t"<<s1.getStudentName()<<"\n";
     std::cout<<"Name of s2 is\t"<<s2.getStudentName()<<"\n";
+    cout<<"aakash"<<endl;
 }
