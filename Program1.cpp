@@ -30,9 +30,5 @@ int main(){
 
     std::cout<<"Name of s1 is\t"<<s1.getStudentName()<<"\n";
     std::cout<<"Name of s2 is\t"<<s2.getStudentName()<<"\n";
-<<<<<<< HEAD
-    cout<<"aakash"<<endl;
-=======
     cout<<"sagar"<<endl;
->>>>>>> branch2
 }
